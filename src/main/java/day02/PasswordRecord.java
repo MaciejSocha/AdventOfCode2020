@@ -27,4 +27,8 @@ public class PasswordRecord {
         }
         return (counter >= minOccurs && counter <= maxOccurs);
     }
+
+    public boolean checkNewPasswordValid() {
+        return ((password.charAt(minOccurs - 1) == character && password.charAt(maxOccurs - 1) != character) || (password.charAt(minOccurs - 1) != character && password.charAt(maxOccurs - 1) == character));
+    }
 }

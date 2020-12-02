@@ -16,5 +16,17 @@ public class Run {
         }
 
         System.out.println("Number of valid passwords: " + counter);
+
+        //second part
+
+        counter = 0;
+
+        for (int i = 0; i < input.lines().count(); i++) {
+            tmp = (String) input.lines().toArray()[i];
+            PasswordRecord passwdRc = new PasswordRecord(tmp);
+            if (passwdRc.checkNewPasswordValid()) counter++;
+        }
+
+        System.out.println("Number of valid passwords 2: " + counter);
     }
 }
