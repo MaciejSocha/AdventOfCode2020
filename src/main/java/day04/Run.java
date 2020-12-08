@@ -7,6 +7,7 @@ import java.util.List;
 
 public class Run {
     static int counter = 0;
+
     public static void main(String[] args) {
         String imp = ReadFile.read("src/main/java/day04/input.txt");
 
@@ -16,7 +17,7 @@ public class Run {
 
         abc.forEach(line -> {
             Passport passport = new Passport(line);
-            if (passport.validate())
+            if (passport.validate2())
                 counter++;
         });
 
