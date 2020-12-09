@@ -11,13 +11,13 @@ public class Run {
         int sum = 0;
         List<String> groups = Arrays.asList(input.split("\n\n"));
 
-        for (String elements: groups) {
+        for (String elements : groups) {
             List<String> answers = Arrays.asList(elements.split("\n").clone());
             Questionnaire q = new Questionnaire();
-            for (String s : answers){
+            for (String s : answers) {
                 q.insertStringData(s);
             }
-            sum += q.countTrue();
+            sum += q.countTrue(answers.size());
         }
         System.out.println(sum);
     }
