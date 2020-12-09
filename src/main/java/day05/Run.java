@@ -2,17 +2,34 @@ package day05;
 
 import utils.ReadFile;
 
+import java.util.*;
+
 public class Run {
     private static int maxID = 0;
 
     public static void main(String[] args) {
+        List<Integer> ids = new ArrayList<>();
         String input = ReadFile.read("src/main/java/day05/input.txt");
         input.lines().forEach(line -> {
             int currentID = calculateID(decodeNumber(line));
             if (currentID > maxID) maxID = currentID;
+            ids.add(currentID);
         });
 
-        System.out.println(maxID);
+        Collections.sort(ids);
+
+        System.out.println(ids);
+
+        int mySeat = -1;
+
+        for (int i=0;i<ids.size()-1;i++) {
+            if ((ids.get(i+1) - ids.get(i)) == 2){
+                mySeat = ids.get(i)+1;
+                break;
+            }
+        }
+
+        System.out.println(mySeat);
     }
 
     private static int calculateID(Pair<Integer> location) {
