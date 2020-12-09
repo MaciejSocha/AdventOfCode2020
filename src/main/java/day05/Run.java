@@ -22,9 +22,9 @@ public class Run {
 
         int mySeat = -1;
 
-        for (int i=0;i<ids.size()-1;i++) {
-            if ((ids.get(i+1) - ids.get(i)) == 2){
-                mySeat = ids.get(i)+1;
+        for (int i = 0; i < ids.size() - 1; i++) {
+            if ((ids.get(i + 1) - ids.get(i)) == 2) {
+                mySeat = ids.get(i) + 1;
                 break;
             }
         }
@@ -51,7 +51,7 @@ public class Run {
         while (input.charAt(i) == 'F' || input.charAt(i) == 'B') {
             c = input.charAt(i);
             mid = calculateMiddle(location.y, location.x);
-            if (c == 'F'){
+            if (c == 'F') {
                 location.y = mid;
             } else {
                 location.x = mid;
@@ -64,10 +64,10 @@ public class Run {
         location.x = 0;
         location.y = 7;
 
-        while (i<input.length()){
+        while (i < input.length()) {
             c = input.charAt(i);
             mid = calculateMiddle(location.y, location.x);
-            if (c == 'L'){
+            if (c == 'L') {
                 location.y = mid;
             } else {
                 location.x = mid;
