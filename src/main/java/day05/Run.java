@@ -1,5 +1,6 @@
 package day05;
 
+import utils.Pair;
 import utils.ReadFile;
 
 import java.util.*;
