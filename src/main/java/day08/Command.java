@@ -22,10 +22,15 @@ public class Command {
         visited = false;
     }
 
-    public boolean visit() {
-        if (visited) return false;
+    public Command(Instruction instruction, int value) {
+        this.instruction = instruction;
+        this.value = value;
+    }
+
+    public boolean visitInstruction() {
+        if (visited) return true;
         visited = true;
-        return true;
+        return false;
 
     }
 }
