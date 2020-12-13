@@ -17,7 +17,7 @@ https://adventofcode.com/2020
 
 [![Day08](https://img.shields.io/badge/Day8-Done-brightgreen.svg)](https://github.com/MaciejSocha/AdventOfCode2020/releases/tag/Day8)
 
-[![Day09](https://img.shields.io/badge/Day9-Partly-yellowgreen.svg)](https://i.imgur.com/rolF402.gif)
+[![Day09](https://img.shields.io/badge/Day9-Done-brightgreen.svg)](https://github.com/MaciejSocha/AdventOfCode2020/releases/tag/Day9)
 
 [![Day10](https://img.shields.io/badge/Day10-Pending-orange.svg)](https://i.imgur.com/rolF402.gif)
 
