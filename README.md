@@ -19,7 +19,7 @@ https://adventofcode.com/2020
 
 [![Day09](https://img.shields.io/badge/Day9-Done-brightgreen.svg)](https://github.com/MaciejSocha/AdventOfCode2020/releases/tag/Day9)
 
-[![Day10](https://img.shields.io/badge/Day10-Pending-orange.svg)](https://i.imgur.com/rolF402.gif)
+[![Day10](https://img.shields.io/badge/Day10-Partly-yellowgreen.svg)](https://i.imgur.com/rolF402.gif)
 
 [![Day11](https://img.shields.io/badge/Day11-Pending-orange.svg)](https://i.imgur.com/rolF402.gif)
 
@@ -27,7 +27,7 @@ https://adventofcode.com/2020
 
 [![Day13](https://img.shields.io/badge/Day13-Pending-orange.svg)](https://i.imgur.com/rolF402.gif)
 
-[![Day14](https://img.shields.io/badge/Day14-Waiting-lightgrey.svg)](https://i.imgur.com/FuZyZrn.gif)
+[![Day14](https://img.shields.io/badge/Day14-Pending-orange.svg)](https://i.imgur.com/FuZyZrn.gif)
 
 [![Day15](https://img.shields.io/badge/Day15-Waiting-lightgrey.svg)](https://i.imgur.com/FuZyZrn.gif)
 
